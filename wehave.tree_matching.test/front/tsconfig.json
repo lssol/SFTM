@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "es6", "esnext"],
+    "downlevelIteration": true,
+    //"outDir": "dist",
+    "noImplicitAny": false,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
+  }
+}

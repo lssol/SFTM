@@ -1,0 +1,9 @@
+export declare const generateId: () => string;
+export declare const attrToString: (attr: Attr) => string;
+export declare const elemToString: (elem: Element) => string;
+export declare const tokenize: (str: string) => string[];
+export declare const tokenize2: (str: string) => string[];
+export declare const getSiblingIndex: (element: Element) => number;
+export declare const getXPath: (node: Element) => string;
+export declare const sum: (list: number[]) => number;
+export declare const avg: (list: number[]) => number;
